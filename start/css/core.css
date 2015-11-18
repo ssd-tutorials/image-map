@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+body {
+	text-align: center;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 12px;
+	padding: 30px 0;	
+	line-height: 21px;
+}
+body,a {
+	color: #333;
+}
+h1,h2,h3,h4,h5,p {
+	padding-bottom: 16px;
+}
+h1,h2,h3,h4,h5 {
+	font-family: 'Sansita One', cursive;
+}

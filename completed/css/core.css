@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+body {
+	text-align: center;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 12px;
+	padding: 30px 0;	
+	line-height: 21px;
+}
+body,a {
+	color: #333;
+}
+h1,h2,h3,h4,h5,p {
+	padding-bottom: 16px;
+}
+h1,h2,h3,h4,h5 {
+	font-family: 'Sansita One', cursive;
+}
+#wrapper {
+	width: 600px;
+	height: 403px;
+	margin: 0 auto;
+	text-align: left;
+}
+#image {
+	width: 298px;
+	height: 403px;
+	float: left;
+	position: relative;
+	background: url(/images/layout.png) no-repeat 0 0;
+}
+#content {
+	width: 282px;
+	height: 403px;
+	float: left;
+	padding-left: 20px;
+}
+.content {
+	display: none;
+}
+.room {
+	width: 298px;
+	height: 403px;
+	z-index: 20;
+	display: none;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.map {
+	z-index: 100;
+	position: relative;
+}
+.room-1 {
+	background: url(/images/layout.png) no-repeat 0 -403px;
+}
+.room-2 {
+	background: url(/images/layout.png) no-repeat 0 -806px;
+}
+.room-3 {
+	background: url(/images/layout.png) no-repeat 0 -1209px;
+}
+.room-4 {
+	background: url(/images/layout.png) no-repeat 0 -1612px;
+}
+.room-5 {
+	background: url(/images/layout.png) no-repeat 0 -2015px;
+}
+.room-6 {
+	background: url(/images/layout.png) no-repeat 0 -2418px;
+}
+.room-7 {
+	background: url(/images/layout.png) no-repeat 0 -2821px;
+}
+.room-8 {
+	background: url(/images/layout.png) no-repeat 0 -3224px;
+}
+.tbl_repeat {
+	width: 100%;
+	margin-bottom: 16px;
+}
+.tbl_repeat th,.tbl_repeat td {
+	padding: 3px 10px;
+	text-align: center;
+}
+.tbl_repeat th {
+	background: #eee;
+}
+.tbl_repeat td {
+	border-bottom: solid 1px #eee;
+}
